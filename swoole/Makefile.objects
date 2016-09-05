@@ -1,0 +1,172 @@
+swoole.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole.c -o swoole.lo 
+swoole_server.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_server.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_server.c -o swoole_server.lo 
+swoole_server_port.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_server_port.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_server_port.c -o swoole_server_port.lo 
+swoole_atomic.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_atomic.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_atomic.c -o swoole_atomic.lo 
+swoole_lock.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_lock.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_lock.c -o swoole_lock.lo 
+swoole_client.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_client.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_client.c -o swoole_client.lo 
+swoole_event.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_event.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_event.c -o swoole_event.lo 
+swoole_timer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_timer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_timer.c -o swoole_timer.lo 
+swoole_async.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_async.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_async.c -o swoole_async.lo 
+swoole_process.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_process.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_process.c -o swoole_process.lo 
+swoole_buffer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_buffer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_buffer.c -o swoole_buffer.lo 
+swoole_table.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_table.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_table.c -o swoole_table.lo 
+swoole_http_server.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_server.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_server.c -o swoole_http_server.lo 
+swoole_http_v2_server.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_v2_server.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_v2_server.c -o swoole_http_v2_server.lo 
+swoole_websocket_server.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_websocket_server.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_websocket_server.c -o swoole_websocket_server.lo 
+swoole_http_client.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_client.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_http_client.c -o swoole_http_client.lo 
+swoole_mysql.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_mysql.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_mysql.c -o swoole_mysql.lo 
+swoole_redis.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_redis.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_redis.c -o swoole_redis.lo 
+src/core/base.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/base.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/base.c -o src/core/base.lo 
+src/core/log.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/log.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/log.c -o src/core/log.lo 
+src/core/hashmap.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/hashmap.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/hashmap.c -o src/core/hashmap.lo 
+src/core/RingQueue.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/RingQueue.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/RingQueue.c -o src/core/RingQueue.lo 
+src/core/Channel.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/Channel.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/Channel.c -o src/core/Channel.lo 
+src/core/string.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/string.c -o src/core/string.lo 
+src/core/array.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/array.c -o src/core/array.lo 
+src/core/socket.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/socket.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/socket.c -o src/core/socket.lo 
+src/core/list.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/list.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/list.c -o src/core/list.lo 
+src/core/heap.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/heap.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/core/heap.c -o src/core/heap.lo 
+src/memory/ShareMemory.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/ShareMemory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/ShareMemory.c -o src/memory/ShareMemory.lo 
+src/memory/MemoryGlobal.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/MemoryGlobal.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/MemoryGlobal.c -o src/memory/MemoryGlobal.lo 
+src/memory/RingBuffer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/RingBuffer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/RingBuffer.c -o src/memory/RingBuffer.lo 
+src/memory/FixedPool.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/FixedPool.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/FixedPool.c -o src/memory/FixedPool.lo 
+src/memory/Malloc.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Malloc.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Malloc.c -o src/memory/Malloc.lo 
+src/memory/Table.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Table.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Table.c -o src/memory/Table.lo 
+src/memory/Buffer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Buffer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/memory/Buffer.c -o src/memory/Buffer.lo 
+src/factory/Factory.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/Factory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/Factory.c -o src/factory/Factory.lo 
+src/factory/FactoryThread.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/FactoryThread.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/FactoryThread.c -o src/factory/FactoryThread.lo 
+src/factory/FactoryProcess.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/FactoryProcess.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/factory/FactoryProcess.c -o src/factory/FactoryProcess.lo 
+src/reactor/ReactorBase.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorBase.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorBase.c -o src/reactor/ReactorBase.lo 
+src/reactor/ReactorSelect.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorSelect.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorSelect.c -o src/reactor/ReactorSelect.lo 
+src/reactor/ReactorPoll.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorPoll.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorPoll.c -o src/reactor/ReactorPoll.lo 
+src/reactor/ReactorEpoll.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorEpoll.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorEpoll.c -o src/reactor/ReactorEpoll.lo 
+src/reactor/ReactorKqueue.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorKqueue.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/reactor/ReactorKqueue.c -o src/reactor/ReactorKqueue.lo 
+src/pipe/PipeBase.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeBase.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeBase.c -o src/pipe/PipeBase.lo 
+src/pipe/PipeEventfd.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeEventfd.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeEventfd.c -o src/pipe/PipeEventfd.lo 
+src/pipe/PipeUnsock.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeUnsock.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/pipe/PipeUnsock.c -o src/pipe/PipeUnsock.lo 
+src/lock/Semaphore.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/Semaphore.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/Semaphore.c -o src/lock/Semaphore.lo 
+src/lock/Mutex.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/Mutex.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/Mutex.c -o src/lock/Mutex.lo 
+src/lock/RWLock.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/RWLock.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/RWLock.c -o src/lock/RWLock.lo 
+src/lock/SpinLock.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/SpinLock.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/SpinLock.c -o src/lock/SpinLock.lo 
+src/lock/FileLock.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/FileLock.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/lock/FileLock.c -o src/lock/FileLock.lo 
+src/network/Server.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Server.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Server.c -o src/network/Server.lo 
+src/network/TaskWorker.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/TaskWorker.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/TaskWorker.c -o src/network/TaskWorker.lo 
+src/network/Client.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Client.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Client.c -o src/network/Client.lo 
+src/network/Connection.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Connection.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Connection.c -o src/network/Connection.lo 
+src/network/ProcessPool.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ProcessPool.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ProcessPool.c -o src/network/ProcessPool.lo 
+src/network/ThreadPool.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ThreadPool.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ThreadPool.c -o src/network/ThreadPool.lo 
+src/network/ReactorThread.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ReactorThread.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ReactorThread.c -o src/network/ReactorThread.lo 
+src/network/ReactorProcess.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ReactorProcess.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/ReactorProcess.c -o src/network/ReactorProcess.lo 
+src/network/Manager.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Manager.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Manager.c -o src/network/Manager.lo 
+src/network/Worker.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Worker.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Worker.c -o src/network/Worker.lo 
+src/network/Timer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Timer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Timer.c -o src/network/Timer.lo 
+src/network/Port.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Port.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/network/Port.c -o src/network/Port.lo 
+src/os/base.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/base.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/base.c -o src/os/base.lo 
+src/os/linux_aio.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/linux_aio.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/linux_aio.c -o src/os/linux_aio.lo 
+src/os/gcc_aio.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/gcc_aio.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/gcc_aio.c -o src/os/gcc_aio.lo 
+src/os/msg_queue.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/msg_queue.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/msg_queue.c -o src/os/msg_queue.lo 
+src/os/sendfile.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/sendfile.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/sendfile.c -o src/os/sendfile.lo 
+src/os/signal.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/signal.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/signal.c -o src/os/signal.lo 
+src/os/timer.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/timer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/os/timer.c -o src/os/timer.lo 
+src/protocol/Base.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Base.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Base.c -o src/protocol/Base.lo 
+src/protocol/SSL.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/SSL.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/SSL.c -o src/protocol/SSL.lo 
+src/protocol/Http.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Http.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Http.c -o src/protocol/Http.lo 
+src/protocol/Http2.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Http2.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Http2.c -o src/protocol/Http2.lo 
+src/protocol/WebSocket.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/WebSocket.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/WebSocket.c -o src/protocol/WebSocket.lo 
+src/protocol/Mqtt.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Mqtt.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Mqtt.c -o src/protocol/Mqtt.lo 
+src/protocol/Base64.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Base64.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/protocol/Base64.c -o src/protocol/Base64.lo 
+src/util/NetUtil.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/util/NetUtil.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/util/NetUtil.c -o src/util/NetUtil.lo 
+src/aerospike/sw_aerospike_event_loop.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/aerospike/sw_aerospike_event_loop.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/aerospike/sw_aerospike_event_loop.c -o src/aerospike/sw_aerospike_event_loop.lo 
+src/aerospike/sw_aerospike.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/aerospike/sw_aerospike.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/src/aerospike/sw_aerospike.c -o src/aerospike/sw_aerospike.lo 
+swoole_aerospike.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_aerospike.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/swoole_aerospike.c -o swoole_aerospike.lo 
+thirdparty/php_http_parser.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/thirdparty/php_http_parser.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/thirdparty/php_http_parser.c -o thirdparty/php_http_parser.lo 
+thirdparty/multipart_parser.lo: /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/thirdparty/multipart_parser.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/lanhu/Workspace/c/yz-soa/yz-swoole-open/swoole-extension/thirdparty/multipart_parser.c -o thirdparty/multipart_parser.lo 
+$(phplibdir)/swoole.la: ./swoole.la
+	$(LIBTOOL) --mode=install cp ./swoole.la $(phplibdir)
+
+./swoole.la: $(shared_objects_swoole) $(SWOOLE_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_swoole) $(SWOOLE_SHARED_LIBADD)
+

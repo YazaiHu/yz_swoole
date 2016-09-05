@@ -1,0 +1,11 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--enable-async-mysql' \
+'--enable-async-httpclient' \
+'--enable-aerospike' \
+'--enable-sockets' \
+'--enable-async-redis' \
+"$@"
