@@ -496,7 +496,7 @@ long swoole_file_get_size(FILE *fp)
     long pos = ftell(fp);
     fseek(fp, 0L, SEEK_END);
     long size = ftell(fp);
-    fseek(fp, pos, SEEK_SET); 
+    fseek(fp, pos, SEEK_SET);
     return size;
 }
 
@@ -945,6 +945,7 @@ void swoole_print_trace(void)
 
 #ifndef HAVE_CLOCK_GETTIME
 #ifdef __MACH__
+#if defined(_DARWIN_FEATURE_CLOCK_GETTIME) && _DARWIN_FEATURE_CLOCK_GETTIME == 0
 int clock_gettime(clock_id_t which_clock, struct timespec *t)
 {
     // be more careful in a multithreaded environement
@@ -962,5 +963,6 @@ int clock_gettime(clock_id_t which_clock, struct timespec *t)
     t->tv_nsec = diff - (t->tv_sec * ORWL_GIGA);
     return 0;
 }
+#endif
 #endif
 #endif

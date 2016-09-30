@@ -67,7 +67,9 @@ extern "C" {
 static double orwl_timebase = 0.0;
 static uint64_t orwl_timestart = 0;
 
+#if defined(_DARWIN_FEATURE_CLOCK_GETTIME) && _DARWIN_FEATURE_CLOCK_GETTIME == 0
 int clock_gettime(clock_id_t which_clock, struct timespec *t);
+#endif
 #endif
 
 #ifndef HAVE_DAEMON
@@ -223,7 +225,7 @@ enum swServer_mode
     SW_MODE_SINGLE        =  4,
 };
 
-#define SW_MODE_PACKET		0x10 
+#define SW_MODE_PACKET		0x10
 //-------------------------------------------------------------------------------
 enum swSocket_type
 {
@@ -274,8 +276,8 @@ SwooleGS->lock.unlock(&SwooleGS->lock)
 snprintf(sw_error,SW_ERROR_MSG_SIZE,"%s: "str,__func__,##__VA_ARGS__);\
 swLog_put(SW_LOG_INFO, sw_error);\
 SwooleGS->lock.unlock(&SwooleGS->lock)
-    
-    
+
+
 #define swNotice(str,...)        SwooleGS->lock.lock(&SwooleGS->lock);\
 snprintf(sw_error,SW_ERROR_MSG_SIZE,str,##__VA_ARGS__);\
 swLog_put(SW_LOG_NOTICE, sw_error);\
@@ -490,13 +492,13 @@ typedef struct _swConnection
      * link any thing, for kernel, do not use with application.
      */
     void *object;
-    
+
     /*
      * used for aerospike
      */
     void *user_data;
-    
-    
+
+
     /**
      * input buffer
      */
@@ -1350,7 +1352,7 @@ struct _swWorker
 
     uint8_t deleted;
     uint8_t child_process;
-    
+
     /*
      * deny_request
      */
